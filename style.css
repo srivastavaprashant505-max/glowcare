@@ -1,0 +1,168 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+header{
+    background-color: bisque;
+    height: 55px;
+}
+#head{
+    display: inline;
+    color: rgb(207, 43, 174);
+    font-size: xx-large;
+    position: relative;
+    top: 15px;
+    margin-right:28%;
+
+}
+a{
+    text-align: center;
+    font-size: large;
+    padding-right: 25px;
+    position: relative;
+    top: 15px;
+    color: rgb(0, 0, 0);
+    font-size: larger;}
+
+button{
+    margin-left: 27%;
+    height: 45px;
+    width: 65px;
+    border-radius: 35%;
+    background-color: rgb(207, 43, 174);
+}
+section{
+    height: 355px;
+    background-color: pink;
+    font-size: x-large;
+    color: rgb(160, 4, 207);
+}
+#hello{
+    position: relative;
+    top: 85px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 8%;
+  background: linear-gradient(135deg, #ffe0eb, #fff);
+}
+
+.hero-text {
+  max-width: 45%;
+  animation: fadeInUp 1.5s ease;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  color: #ff408c;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.hero-text button {
+  background: #ff6fa5;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-text button:hover {
+  background: #ff408c;
+}
+
+.hero-img {
+  width: 40%;
+  animation: float 3s ease-in-out infinite;
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.products {
+  padding: 60px 8%;
+  text-align: center;
+  background: #fff;
+}
+
+.products h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #ff408c;
+}
+
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 250px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.card p {
+  color: #ff6fa5;
+  font-weight: bold;
+}
+footer{
+    background-color: rgb(207, 43, 174);
+    color: black;
+    text-align: center;
+    height: 35px;
+    padding-top: 25px;
+    font-size: larger;
+
+}
+
+
+
+
